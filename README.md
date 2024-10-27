@@ -54,7 +54,8 @@ server.servlet.context-path=/api/sms
 
 ### User Management
 - `POST /api/sms/v1/user`: Create a new user
-- `GET /api/sms/v1/user?userId={userId}`: Retrieve a user by ID
+- `GET /api/sms/v1/user?userId={userId}` : Retrieve a user by ID
+- `GET /api/sms/v1/user/all` : Retrieve all users
 
 ### Class Management
 - `POST /api/sms/v1/class`: Create a new class
@@ -63,5 +64,8 @@ server.servlet.context-path=/api/sms
 ### Booking Management
 - `POST /api/sms/v1/booking`: Create a new booking
 - `GET /api/sms/v1/booking?bookingId={bookingId}`: Retrieve a booking by ID
+- `GET /api/sms/v1/booking/user?userId={userId}`: Retrieve all booking for User
+- `GET /api/sms/v1/booking/all`: Retrieve all bookings
+- 
 ```
 
