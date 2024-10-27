@@ -1,4 +1,4 @@
-```markdown
+
 # Studio Management Service
 
 A Spring Boot REST API for managing classes, users, and bookings in a studio. This application allows users to create and book classes, manage user information, and provides a Swagger UI for easy testing and documentation.
@@ -65,4 +65,3 @@ server.servlet.context-path=/api/sms
 - `GET /api/sms/v1/booking?bookingId={bookingId}`: Retrieve a booking by ID
 ```
 
-This `README.md` section includes everything from project setup to API endpoints, formatted correctly for clarity.
