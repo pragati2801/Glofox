@@ -66,6 +66,5 @@ server.servlet.context-path=/api/sms
 - `GET /api/sms/v1/booking?bookingId={bookingId}`: Retrieve a booking by ID
 - `GET /api/sms/v1/booking/user?userId={userId}`: Retrieve all booking for User
 - `GET /api/sms/v1/booking/all`: Retrieve all bookings
-- 
 ```
 
